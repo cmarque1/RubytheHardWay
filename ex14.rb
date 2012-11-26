@@ -17,13 +17,13 @@ computer = STDIN.gets.chomp()
 
 puts "What are you doing today?"
 print prompt
-computer = STDIN.gets.chomp()
+place = STDIN.gets.chomp()
 
 puts <<MESSAGE
 Alright, so you said #{likes} about liking me.
 You live in #{lives}.  Not sure where that is.
 And you have a #{computer} computer.  Nice.
-And you are going to
-#I cant get this to work! argh.
+And you are going to #{place}. Awesome!
+#i forgot to change place
 
 MESSAGE
